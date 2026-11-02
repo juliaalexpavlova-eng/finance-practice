@@ -7,3 +7,14 @@
 
 .model-marketing-anonymized>a{padding:22px}.model-marketing-anonymized img{max-height:620px;object-fit:contain}.model-dashboard-heading{margin:45px 0 25px;max-width:850px}.model-dashboard-heading h3{font:400 34px/1.2 var(--serif);letter-spacing:-.02em}.model-dashboard-heading p{margin-top:12px;font-size:15px;color:var(--muted)}.model-dashboard-grid{display:grid;grid-template-columns:1fr;gap:28px}.model-dashboard-grid .model-example>a{padding:14px}.model-dashboard-grid .model-example figcaption{display:flex;justify-content:space-between;align-items:center;gap:30px}.model-dashboard-grid .model-example figcaption>a{margin:0;flex-shrink:0}.model-dashboard-grid .model-example img{max-height:850px}
 @media(max-width:700px){.model-marketing-anonymized>a{padding:12px}.model-dashboard-heading{margin-top:35px}.model-dashboard-heading h3{font-size:31px}.model-dashboard-grid .model-example>a{padding:7px}.model-dashboard-grid .model-example figcaption{display:block}.model-dashboard-grid .model-example figcaption>a{margin-top:15px}}
+
+/* Compact, non-interactive illustrations. */
+.model-illustrations-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
+.model-illustration-visual{height:150px;display:flex;align-items:center;justify-content:center;padding:12px;background:#fff}
+.model-illustration-visual img{width:100%;height:100%;object-fit:contain}
+.model-illustration figcaption{display:block;padding:17px;border-top:1px solid var(--line)}
+.model-illustration strong{font-size:15px;line-height:1.4}
+.model-illustration figcaption p{font-size:12px;line-height:1.6;margin-top:8px}
+.model-illustrations-note{margin-top:20px;font-size:12px;line-height:1.6;color:var(--muted)}
+@media(max-width:960px){.model-illustrations-grid{gap:14px}.model-illustration-visual{height:120px;padding:9px}.model-illustration figcaption{padding:14px}.model-illustration strong{font-size:14px}}
+@media(max-width:700px){.model-illustrations-grid{grid-template-columns:1fr;gap:12px}.model-illustration{display:grid;grid-template-columns:112px minmax(0,1fr);align-items:center}.model-illustration-visual{height:100px;padding:8px}.model-illustration figcaption{padding:13px;border-top:0;border-left:1px solid var(--line)}.model-illustration figcaption p{margin-top:6px}.model-illustrations-note{margin-top:16px}}
